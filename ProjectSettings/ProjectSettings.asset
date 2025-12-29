@@ -641,9 +641,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 26af1ed0-a413-4964-a9e3-a826dbc1699a
-  projectName: MarioUSTHB
-  organizationId: unity_fb5d94dd5028165f6611
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
