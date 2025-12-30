@@ -232,9 +232,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameOverScreen.cs" />
     <Compile Include="Assets\MainMenuController.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\UIManager.cs" />
+    <Compile Include="Assets\VictoryScreen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
