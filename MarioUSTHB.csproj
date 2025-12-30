@@ -232,6 +232,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\GameOverScreen.cs" />
     <Compile Include="Assets\MainMenuController.cs" />
     <Compile Include="Assets\PauseMenu.cs" />

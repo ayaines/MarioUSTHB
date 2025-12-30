@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44658017, g: 0.49641502, b: 0.57482153, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -842,6 +842,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1219231409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1219231411}
+  - component: {fileID: 1219231410}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1219231410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1219231409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9694c85cfc36cbb42ab205b1760bcf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuMusic: {fileID: 8300000, guid: 0ec3f346efc0a3445aac53e954c58998, type: 3}
+  gameplayMusic: {fileID: 8300000, guid: ae4c2a8f757a1cf4fb2e7816fc3208da, type: 3}
+  victoryMusic: {fileID: 8300000, guid: 252ac58285ece254db6c25bbe7ba5298, type: 3}
+  jumpSound: {fileID: 8300000, guid: 54d522339fbf60a41b157620f7e9cc4e, type: 3}
+  coinSound: {fileID: 8300000, guid: d810c72153112b142a206d304bc57a06, type: 3}
+  hitSound: {fileID: 8300000, guid: e154575d734f9c94aaebb4473ce2de28, type: 3}
+  deathSound: {fileID: 8300000, guid: a3d75a7395b2d2e409480a7d9ed52b4c, type: 3}
+  buttonClickSound: {fileID: 8300000, guid: 0ecceb25d12e0a240b85114027c27bf0, type: 3}
+  powerUpSound: {fileID: 8300000, guid: 1d7cabb4a0dc7944ab3f9b5754a4c1e2, type: 3}
+  levelCompleteSound: {fileID: 8300000, guid: 2e410b6aa0bfdf14882ac20c8bc89560, type: 3}
+  pauseSound: {fileID: 8300000, guid: aeef403106df8df4fb80f7815b55bcec, type: 3}
+  enemyDeathSound: {fileID: 8300000, guid: 69487ae2bd63ea2468add01e3c74740e, type: 3}
+  throwBookSound: {fileID: 8300000, guid: b337fff3b4a8e3247a2f11d5a057e6c1, type: 3}
+--- !u!4 &1219231411
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1219231409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1474065947
 GameObject:

@@ -22,6 +22,12 @@ public class PauseMenu : MonoBehaviour
         pausePanel.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+
+        // Son de pause
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.pauseSound);
+        }
     }
 
     public void ResumeGame()
@@ -29,18 +35,35 @@ public class PauseMenu : MonoBehaviour
         pausePanel.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+
+        // Son de clic
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.buttonClickSound);
+        }
     }
 
     public void RestartGame()
     {
+        // Son de clic
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.buttonClickSound);
+        }
+
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void LoadMainMenu()
     {
+        // Son de clic
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.buttonClickSound);
+        }
+
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 }
-

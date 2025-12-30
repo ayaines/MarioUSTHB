@@ -18,11 +18,16 @@ public class UIManager : MonoBehaviour
         UpdateLives(lives);
         UpdateScore(score);
         UpdateTimerText();
+
+        // Jouer la musique de gameplay
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlayMusic(AudioManager.instance.gameplayMusic);
+        }
     }
 
     void Update()
     {
-        // Timer
         if (timeLeft > 0)
         {
             timeLeft -= Time.deltaTime;
@@ -34,21 +39,18 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    // ❤️ Mettre à jour les vies
     public void UpdateLives(int newLives)
     {
         lives = newLives;
         livesText.text = "Lives: " + lives;
     }
 
-    // 🪙 Mettre à jour le score
     public void UpdateScore(int newScore)
     {
         score = newScore;
         scoreText.text = "Score: " + score;
     }
 
-    // ⏱️ Mettre à jour l'affichage du timer
     void UpdateTimerText()
     {
         int minutes = Mathf.FloorToInt(timeLeft / 60);
@@ -56,4 +58,3 @@ public class UIManager : MonoBehaviour
         timerText.text = "Time: " + minutes.ToString("00") + ":" + seconds.ToString("00");
     }
 }
-

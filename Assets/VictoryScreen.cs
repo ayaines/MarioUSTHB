@@ -9,13 +9,11 @@ public class VictoryScreen : MonoBehaviour
     public Text victoryTimeText;
     public Text victoryCoinsText;
 
-    // ✅ FONCTION DE TEST (VISIBLE DANS BUTTON)
     public void TestShowVictory()
     {
         ShowVictory(5000, 180f, 25);
     }
 
-    // 🎮 FONCTION RÉELLE (APPELÉE PAR LE GAMEPLAY PLUS TARD)
     public void ShowVictory(int finalScore, float timeTaken, int coinsCollected)
     {
         victoryPanel.SetActive(true);
@@ -29,10 +27,23 @@ public class VictoryScreen : MonoBehaviour
         victoryCoinsText.text = "Coins: " + coinsCollected;
 
         Time.timeScale = 0f;
+
+        // Son de victoire
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.levelCompleteSound);
+            AudioManager.instance.PlayMusic(AudioManager.instance.victoryMusic);
+        }
     }
 
     public void LoadNextLevel()
     {
+        // Son de clic
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.buttonClickSound);
+        }
+
         Time.timeScale = 1f;
         int index = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(index + 1);
@@ -40,6 +51,12 @@ public class VictoryScreen : MonoBehaviour
 
     public void LoadMainMenu()
     {
+        // Son de clic
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySFX(AudioManager.instance.buttonClickSound);
+        }
+
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
