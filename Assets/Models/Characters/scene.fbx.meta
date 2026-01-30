@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: c80ec013d9e28bb45a2aa52d04fd53ca
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 08e4cafbffc5476d9008dcc8a354c6dffbx
+    100002: 08e4cafbffc5476d9008dcc8a354c6dffbx_1
+    100004: 08e4cafbffc5476d9008dcc8a354c6dffbx_2
+    100006: AuxScene_1
+    100008: Collada_visual_scene_group
+    100010: Cube003
+    100012: defaultMaterial
+    100014: nodes[11]
+    100016: nodes[12]
+    100018: nodes[15]
+    100020: nodes[16]
+    100022: nodes[36]
+    100024: nodes[7]
+    100026: nodes[8]
+    100028: Plane
+    100030: Plane_Baked
+    100032: Plane_Baked_1
+    100034: Plane_Baked_2
+    100036: Plane_Baked_Plane_Bake1_baked_0
+    100038: Plane_Baked_Plane_Bake1_baked_0_1
+    100040: Plane_Baked_Plane_Bake1_baked_0_2
+    100042: root
+    100044: RootNode
+    100046: RootNode_1
+    100048: RootNode_2
+    100050: Scene
+    100052: //RootNode
+    100054: Sketchfab_model
+    100056: Sketchfab_model_1
+    100058: Sketchfab_model_2
+    100060: Sketchfab_model_3
+    100062: Sketchfab_Scene
+    100064: Sketchfab_Scene_1
+    100066: Sketchfab_Scene_2
+    100068: Sketchfab_Scene_3
+    100070: SM_Plant03
+    100072: SM_Wall_4
+    100074: SM_Wall_4_1
+    100076: SM_Wall_4_1 1
+    100078: SM_Wall_4_1_1
+    100080: SM_Wall_4_1_2
+    100082: SM_Wall_4_2
+    100084: tripo_node_4b0a312c-c2e2-4600-a553-e0331e0731ab
+    400000: 08e4cafbffc5476d9008dcc8a354c6dffbx
+    400002: 08e4cafbffc5476d9008dcc8a354c6dffbx_1
+    400004: 08e4cafbffc5476d9008dcc8a354c6dffbx_2
+    400006: AuxScene_1
+    400008: Collada_visual_scene_group
+    400010: Cube003
+    400012: defaultMaterial
+    400014: nodes[11]
+    400016: nodes[12]
+    400018: nodes[15]
+    400020: nodes[16]
+    400022: nodes[36]
+    400024: nodes[7]
+    400026: nodes[8]
+    400028: Plane
+    400030: Plane_Baked
+    400032: Plane_Baked_1
+    400034: Plane_Baked_2
+    400036: Plane_Baked_Plane_Bake1_baked_0
+    400038: Plane_Baked_Plane_Bake1_baked_0_1
+    400040: Plane_Baked_Plane_Bake1_baked_0_2
+    400042: root
+    400044: RootNode
+    400046: RootNode_1
+    400048: RootNode_2
+    400050: Scene
+    400052: //RootNode
+    400054: Sketchfab_model
+    400056: Sketchfab_model_1
+    400058: Sketchfab_model_2
+    400060: Sketchfab_model_3
+    400062: Sketchfab_Scene
+    400064: Sketchfab_Scene_1
+    400066: Sketchfab_Scene_2
+    400068: Sketchfab_Scene_3
+    400070: SM_Plant03
+    400072: SM_Wall_4
+    400074: SM_Wall_4_1
+    400076: SM_Wall_4_1 1
+    400078: SM_Wall_4_1_1
+    400080: SM_Wall_4_1_2
+    400082: SM_Wall_4_2
+    400084: tripo_node_4b0a312c-c2e2-4600-a553-e0331e0731ab
+    2100000: Plane_Bake1_baked
+    2100002: M_Plaster_1
+    2100004: Mi_Color
+    2100006: Terrain.001
+    2100008: tripo_material_4b0a312c-c2e2-4600-a553-e0331e0731ab
+    2100010: M_Plants_2
+    2100012: DefaultMaterial
+    2300000: defaultMaterial
+    2300002: Plane
+    2300004: Plane_Baked_Plane_Bake1_baked_0
+    2300006: Plane_Baked_Plane_Bake1_baked_0_1
+    2300008: Plane_Baked_Plane_Bake1_baked_0_2
+    2300010: SM_Plant03
+    2300012: SM_Wall_4
+    2300014: SM_Wall_4_1
+    2300016: SM_Wall_4_1 1
+    2300018: SM_Wall_4_1_1
+    2300020: SM_Wall_4_1_2
+    2300022: SM_Wall_4_2
+    2300024: tripo_node_4b0a312c-c2e2-4600-a553-e0331e0731ab
+    3300000: defaultMaterial
+    3300002: Plane
+    3300004: Plane_Baked_Plane_Bake1_baked_0
+    3300006: Plane_Baked_Plane_Bake1_baked_0_1
+    3300008: Plane_Baked_Plane_Bake1_baked_0_2
+    3300010: SM_Plant03
+    3300012: SM_Wall_4
+    3300014: SM_Wall_4_1
+    3300016: SM_Wall_4_1 1
+    3300018: SM_Wall_4_1_1
+    3300020: SM_Wall_4_1_2
+    3300022: SM_Wall_4_2
+    3300024: tripo_node_4b0a312c-c2e2-4600-a553-e0331e0731ab
+    4300000: Plane_Baked_Plane_Bake1_baked_0
+    4300002: SM_Wall_4
+    4300004: SM_Wall_4_1
+    4300006: SM_Wall_4_1
+    4300008: SM_Wall_4_1_1
+    4300010: SM_Wall_4_2
+    4300012: SM_Wall_4_1_2
+    4300014: Plane_Baked_Plane_Bake1_baked_0_1
+    4300016: Plane_Baked_Plane_Bake1_baked_0_2
+    4300018: Plane
+    4300020: tripo_node_4b0a312c-c2e2-4600-a553-e0331e0731ab
+    4300022: SM_Plant03
+    4300024: defaultMaterial
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 0
+    second: {fileID: 2800000, guid: 8f25985ff0ee62648a0d26d551f766fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1
+    second: {fileID: 2800000, guid: a019a594fc617f346bfa65bb1ce9bc0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10
+    second: {fileID: 2800000, guid: ad5749b64e032004cbd4be8ac44d5a1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 11
+    second: {fileID: 2800000, guid: f7cc20b5dc0a49841893912290b75d8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 12
+    second: {fileID: 2800000, guid: 17e3996646cbb494c81f55bd59c5b9e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13
+    second: {fileID: 2800000, guid: c8e9f8fdd859da24bb90a87faafec787, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 14
+    second: {fileID: 2800000, guid: 60fbb21849b107044983de7c19d4ec64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 15
+    second: {fileID: 2800000, guid: 84776fca01c15704bb0c005358966806, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 16
+    second: {fileID: 2800000, guid: 0278791ec8c36bc4ba2329733cb4dfa6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2
+    second: {fileID: 2800000, guid: 056cc49a03c67aa4597d9c82250e18ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3
+    second: {fileID: 2800000, guid: 3903ae52b44cbe04da3473c19a87b12a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 4
+    second: {fileID: 2800000, guid: 937ce2b75b9f8ed44b93a55444757362, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 5
+    second: {fileID: 2800000, guid: 05e71390bde7c0e46901f15fedb4efcf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 6
+    second: {fileID: 2800000, guid: 4d83def7d707caf4181012fd4728fa9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7
+    second: {fileID: 2800000, guid: c9db7709ba3ff234f8d0dc7148917a73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8
+    second: {fileID: 2800000, guid: 0e73267b16895cc4685e7ffd784e8968, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 9
+    second: {fileID: 2800000, guid: 618dcbcf919440947b957d05bd555255, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
