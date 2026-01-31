@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
@@ -50,11 +50,27 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("PLAYER DEAD");
+        Debug.Log("PLAYER DEAD - Lives: " + lives);
 
         if (controller != null)
             controller.SetDeathState();
 
+        // Si plus de vies → Game Over
+        if (lives <= 0)
+        {
+            GameOverScreen gameOver = FindObjectOfType<GameOverScreen>();
+            if (gameOver != null)
+            {
+                UIManager uiManager = FindObjectOfType<UIManager>();
+                int finalScore = (uiManager != null) ? uiManager.score : 0;
+
+                gameOver.ShowGameOver(finalScore);
+            }
+
+            return; // Ne pas respawn si Game Over
+        }
+
+        // Sinon respawn
         Respawn();
 
         if (resetLivesOnDeath)
