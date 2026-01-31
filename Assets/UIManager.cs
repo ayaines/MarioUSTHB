@@ -8,18 +8,21 @@ public class UIManager : MonoBehaviour
     public Text scoreText;
     public Text timerText;
 
-    [Header("Game Values (Test)")]
-    public int lives = 3;
+    [Header("References")]
+    public PlayerHealth playerHealth;
+
+    [Header("Game Values")]
     public int score = 0;
     public float timeLeft = 300f;
 
     void Start()
     {
-        UpdateLives(lives);
+        if (playerHealth != null)
+            UpdateLives(playerHealth.lives);
+
         UpdateScore(score);
         UpdateTimerText();
 
-        // Jouer la musique de gameplay
         if (AudioManager.instance != null)
         {
             AudioManager.instance.PlayMusic(AudioManager.instance.gameplayMusic);
@@ -28,6 +31,11 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
+        // Update lives from player
+        if (playerHealth != null)
+            UpdateLives(playerHealth.lives);
+
+        // Timer
         if (timeLeft > 0)
         {
             timeLeft -= Time.deltaTime;
@@ -41,8 +49,7 @@ public class UIManager : MonoBehaviour
 
     public void UpdateLives(int newLives)
     {
-        lives = newLives;
-        livesText.text = "Lives: " + lives;
+        livesText.text = "Lives: " + newLives;
     }
 
     public void UpdateScore(int newScore)
@@ -56,5 +63,11 @@ public class UIManager : MonoBehaviour
         int minutes = Mathf.FloorToInt(timeLeft / 60);
         int seconds = Mathf.FloorToInt(timeLeft % 60);
         timerText.text = "Time: " + minutes.ToString("00") + ":" + seconds.ToString("00");
+    }
+
+    public void AddScore(int amount)
+    {
+        score += amount;
+        UpdateScore(score);
     }
 }

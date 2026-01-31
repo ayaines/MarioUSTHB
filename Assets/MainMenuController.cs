@@ -20,7 +20,7 @@ public class MainMenuController : MonoBehaviour
             AudioManager.instance.PlaySFX(AudioManager.instance.buttonClickSound);
         }
 
-        SceneManager.LoadScene("Level1_Bibliotheque");
+        SceneManager.LoadScene("lavel1");
     }
 
     public void OpenSettings()
